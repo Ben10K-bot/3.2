@@ -11,3 +11,10 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   }
   return !1;
 }
+
+handler.help = ['privetban']
+handler.tags = ['owner']
+handler.command = ['nopriv','قفل-الخاص'] 
+handler.rowner = true
+
+export default handler
